@@ -1,12 +1,11 @@
 # telegram_bot
 Task list:
 - DTB-1(feature) Add django into the project(DONE);
-- DTB-2 (feature) Add djangorestframework and get following api endpoints:
-  1. Register new user by Telegram account
-  2. Get possibility to get info about your account (Name)
-  3. Create new model - task
-  4. Get possibility to execute following type of request with task: POST(create)
-  , GET(get info about task or tasks), PUT(update task), DELETE(archive task)
+- DTB-2 (feature) Add djangorestframework and get following api endpoints(DONE):
+  1. REST operation with user(GET, POST, PUT, DELETE);
+  2. Create new model - task;
+  3. Get possibility to execute following type of request with task: POST(create), PUT(update), DELETE(remove), GET(get info);
+  4. Add JWT auth
 - DTB-3(feature) Add roles for user - Manager and Developer
 - DTB-4(feature) create docker compose file to run project into the docker containers
 - DTB-4(feature) Add possibility for User with role admin can create task for developer
